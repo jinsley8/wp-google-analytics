@@ -12,4 +12,10 @@ Next, we need to require the **google-analytics.php** file in your **function.ph
 require_once( 'inc/google-analytics.php' );
 ```
 
-Replace **ADD_TRACKING_CODE_HERE** with your own Measurement ID.
+Replace **UA-XXXXX-Y** with your own UA property.
+
+If using the new GA4, replace **G-XXXXX** with your own GA4 Measurement ID and uncomment line 18.
+
+- [More about implementing GA4 with a UA Property](https://developers.google.com/analytics/devguides/collection/ga4/basic-tag)
+- [More about implementing GA4 events](https://developers.google.com/analytics/devguides/collection/ga4/translate-events)
+- [More about implementing GA4 eCommerce](https://developers.google.com/analytics/devguides/collection/ga4/ecommerce-migration)
