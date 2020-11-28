@@ -2,9 +2,8 @@
 
 function add_google_analytics() {
 
-  // disabled for logged-in users
-  // an alternative is !current_user_can('manage_options') if customers can login like WooCommerce
-  if ( !is_user_logged_in() ) {
+  // disabled for Admin users
+  if ( !current_user_can( 'manage_options' ) ) {
     ?>
       <!-- Start Google Analytics Script -->
       <!-- Global Site Tag (gtag.js) - Google Analytics -->
