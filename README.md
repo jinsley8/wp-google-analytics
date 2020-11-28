@@ -14,6 +14,8 @@ require_once( 'inc/google-analytics.php' );
 
 Replace **UA-XXXXX-Y** with your own UA property.
 
+## Google Analytics 4
+
 If using the new GA4, replace **G-XXXXX** with your own GA4 Measurement ID and uncomment line 18.
 
 - [More about implementing GA4 with a UA Property](https://developers.google.com/analytics/devguides/collection/ga4/basic-tag)
